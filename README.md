@@ -1,6 +1,6 @@
 # Hi there, I'm Sunil! 👋
 
-## 🚀 A- 📊 Implemented **data visualization dashboard** using Python and Reactout Me
+## 🚀 About Me
 
 I'm a passionate **Computer Science student** specializing in **AI/Machine Learning** and **Full Stack Development**. I love creating innovative solutions and turning ideas into reality. With a strong foundation in both AI technologies and web development, I specialize in building intelligent, scalable applications and constantly learning new technologies.
 
