@@ -1,7 +1,7 @@
 # Hi there, I'm Sunil! 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7## 💡 Random Dev Quotecenter=true&vCenter=true&width=435&lines=Full+Stack+Developer;Problem+Solver;Tech+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&## 💡 Random Dev Quoteenter=true&vCenter=true&width=435&lines=Full+Stack+Developer;Problem+Solver;Tech+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -18,7 +18,7 @@ I'm a passionate **Full Stack Developer** who loves creating innovative solution
 - 👯 I'm looking to collaborate on **open source projects**
 - 🤔 I'm looking for help with **machine learning integration**
 - 💬 Ask me about **JavaScript, React, Node.js, Python**
-- 📫 How to reach me: **[your-email@example.com]**
+- 📫 How to reach me: **sunilsaini5652@gmail.com**
 - ⚡ Fun fact: **I debug with console.log and I'm not ashamed! 😄**
 
 ## 🛠️ Tech Stack
@@ -129,7 +129,7 @@ const sunil = {
   <a href="https://instagram.com/yourhandle" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:sunilsaini5652@gmail.com">
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://yourwebsite.com" target="_blank">
