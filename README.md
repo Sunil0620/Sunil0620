@@ -4,45 +4,15 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=CS+Student+%7C+AI%2FML+Enthusiast;Full+Stack+Developer;Problem+Solver;Always+Learning!" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sunil0620&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/Sunil0620?label=Followers&style=social" alt="GitHub Badge">
-</p>
-
 ## 🚀 About Me
 
-I'm a passionate **Computer Science student** specializing in **AI/Machine Learning** and **Full Stack Development**. I love creating innovative solutions and turning ideas into reality. With a strong foundation in both AI technologies and web development, I specialize in building intelligent, scalable applications and constantly learning new technologies.
+**Computer Science student** specializing in **AI/ML** and **Full Stack Development**. Building intelligent applications and constantly learning new technologies.
 
-**🎯 What I Bring:**
-- **Problem-solving mindset** with focus on AI-driven solutions and clean code
-- **Team collaboration** experience through group projects, hackathons, and AI competitions
-- **Quick learner** who stays updated with latest AI/ML and web development trends
-- **Academic excellence** combined with practical AI and development skills
-
-- 🔭 I'm currently working on **AI/ML projects and full-stack applications**
-- 🎓 I'm pursuing **Computer Science Engineering with AI specialization** (Expected graduation: 2026)
-- 🌱 I'm currently learning **Deep Learning, MLOps, Cloud Technologies & DevOps**
-- 👯 I'm looking to collaborate on **AI/ML projects, open source, and student initiatives**
-- 🤔 I'm looking for help with **advanced machine learning, system design, and AI deployment**
-- 💬 Ask me about **Python, JavaScript, React, Node.js, Machine Learning, Data Science**
-- 📫 How to reach me: **[sunilsaini5652@gmail.com](mailto:sunilsaini5652@gmail.com)**
-- ⚡ Fun fact: **I debug with console.log AND print statements - double coverage! 😄**
-
-## 💼 Projects & Experience
-
-**Full Stack Developer** | *Freelance/Personal Projects* | *2023 - Present*
-- Developed and deployed **3+ web applications** as personal and academic projects
-- Improved application performance by **30%** through code optimization techniques
-- Collaborated with **2-3 teammates** in college group projects using Git workflows
-- Integrated **APIs** and **databases** for dynamic web applications
-
-**Key Projects:**
-- 🤖 Built a **sentiment analysis model** using Python and NLP techniques
-- 🧠 Developed **image classification system** using TensorFlow and CNN
-- 🏆 Created **student management system** with authentication and CRUD operations
-- 🚀 Developed **responsive portfolio website** with modern UI/UX design
-- 📊 Implemented **data visualization dashboard** using Python and React
-- ⚡ Built **REST APIs** with machine learning integration using Flask/FastAPI
+- 🎓 Pursuing **CS Engineering with AI specialization** (Expected: 2026)
+- 🔭 Working on **AI/ML projects and web applications**  
+- 🌱 Learning **Deep Learning, MLOps, Cloud Technologies**
+- 💬 Ask me about **Python, JavaScript, React, Machine Learning**
+- 📫 Reach me: **[sunilsaini5652@gmail.com](mailto:sunilsaini5652@gmail.com)**
 
 ## 🛠️ Tech Stack & Skills
 
@@ -70,28 +40,24 @@ I'm a passionate **Computer Science student** specializing in **AI/Machine Learn
 
 </div>
 
-## 🎖️ Certifications & Learning
-
-- 🤖 **Machine Learning Specialization** - Coursera *(In Progress)*
-- 🏅 **AWS Certified Developer Associate** *(In Progress)*
-- 📚 **JavaScript Algorithms and Data Structures** - FreeCodeCamp
-- 🐍 **Python for Data Science and AI** - IBM/Coursera *(In Progress)*
-- 🎓 **Full Stack Web Development** - Self-taught
-- 📖 Currently studying **Deep Learning** and **MLOps with TensorFlow**
-
 ## 📊 GitHub Stats
+
+📊 **This week I spent my time on:**
+<!--START_SECTION:waka-->
+```txt
+Python       4 hrs 15 mins   ██████████████████▓░░░░░░   65.30 %
+JavaScript   1 hr 45 mins    ███████▒░░░░░░░░░░░░░░░░░   22.15 %
+Java         35 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   09.25 %
+HTML         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   03.30 %
+```
+<!--END_SECTION:waka-->
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunil0620&layout=compact&langs_count=7&theme=tokyonight" alt="Top Languages"/>
 </div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sunil0620&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sunil0620&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 </div>
 
 ## 🤝 Connect with Me
