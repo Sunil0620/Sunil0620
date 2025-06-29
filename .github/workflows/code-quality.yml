@@ -1,0 +1,81 @@
+name: Code Quality Check
+
+on:
+  pull_request:
+    branches: [ main, master ]
+  push:
+    branches: [ main, master ]
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install Python linting tools
+      run: |
+        pip install --upgrade pip
+        pip install flake8 black isort
+    
+    - name: Install Node.js linting tools
+      run: |
+        npm install -g eslint prettier
+    
+    - name: Run Python code quality checks
+      run: |
+        # Find Python files
+        if find . -name "*.py" | grep -q .; then
+          echo "Running Python linting..."
+          
+          # Run Black (code formatter)
+          black --check . || echo "Black formatting needed"
+          
+          # Run isort (import sorter)
+          isort --check-only . || echo "Import sorting needed"
+          
+          # Run flake8 (style guide)
+          flake8 . || echo "Flake8 issues found"
+        fi
+    
+    - name: Run JavaScript/TypeScript code quality checks
+      run: |
+        # Find JS/TS files
+        if find . \( -name "*.js" -o -name "*.ts" -o -name "*.jsx" -o -name "*.tsx" \) -not -path "./node_modules/*" | grep -q .; then
+          echo "Running JavaScript/TypeScript linting..."
+          
+          # Check if project has package.json
+          if [ -f package.json ]; then
+            npm install
+            
+            # Run ESLint if config exists
+            if [ -f .eslintrc.js ] || [ -f .eslintrc.json ] || [ -f .eslintrc.yml ]; then
+              npx eslint . --ext .js,.ts,.jsx,.tsx || echo "ESLint issues found"
+            fi
+            
+            # Run Prettier check
+            npx prettier --check . || echo "Prettier formatting needed"
+          fi
+        fi
+    
+    - name: Comment PR with results
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '🤖 Code quality check completed! Please review any linting suggestions above.'
+          })
