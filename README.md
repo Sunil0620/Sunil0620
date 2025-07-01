@@ -41,22 +41,11 @@
 ## 📈 GitHub Stats
 
 <!--START_SECTION:waka-->
-📈 **This Week I Spent My Time On** 
 
-```text
-🕑 Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-No Activity Tracked This Week
+```txt
+No activity tracked
 ```
 
-**I Mostly Code in Python** 
-
-```text
-Python                   2 repos             ████████████░░░░░░░░░░░░░   50.00 % 
-Java                     1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
-C                        1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
-```
 <!--END_SECTION:waka-->
 
 <div align="center">
