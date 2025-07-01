@@ -43,7 +43,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Python       4 hrs 15 mins   ██████████████████▓░░░░░░   65.30 %
+JavaScript   1 hr 45 mins    ███████▒░░░░░░░░░░░░░░░░░   22.15 %
+Java         35 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   09.25 %
+HTML         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   03.30 %
 ```
 
 <!--END_SECTION:waka-->
@@ -54,10 +57,10 @@ No activity tracked
 
 ## 📝 Todo Tasks
 <!-- TODO-IST:START -->
-🏆  100 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 0 tasks so far           
-⏳  Longest streak is 0 days
+🏆  8,004 Karma Points
+🌸  Completed 0 tasks today
+✅  Completed 673 tasks so far
+⏳  Longest streak is 10 days
 <!-- TODO-IST:END -->
 
 ## 🤝 Connect with Me
