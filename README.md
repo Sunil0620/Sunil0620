@@ -38,62 +38,15 @@
 
 </div>
 
-## � GitHub Stats
+## 📈 GitHub Stats
 
-� **This week I spent my time on:**
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-21-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 98 Contributions in the Year 2025
- > 
-> 💼 Opted to Hire
- > 
-> 📜 5 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-**I'm a Night 🦉** 
+📈 **This Week I Spent My Time On** 
 
 ```text
-🌞 Morning                6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
-🌆 Daytime                46 commits          █████████░░░░░░░░░░░░░░░░   35.38 % 
-🌃 Evening                71 commits          ██████████████░░░░░░░░░░░   54.62 % 
-🌙 Night                  7 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
-```
-📅 **I'm Most Productive on Thursday** 
-
-```text
-Monday                   16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
-Tuesday                  13 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
-Wednesday                16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
-Thursday                 26 commits          █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-Friday                   16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
-Saturday                 17 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.08 % 
-Sunday                   26 commits          █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
+🕑 Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
 No Activity Tracked This Week
 ```
 
@@ -104,20 +57,7 @@ Python                   2 repos             ███████████�
 Java                     1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
 C                        1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
 ```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/Sunil0620/Sunil0620/main/assets/bar_graph.png)
-
-
- Last Updated on 01/07/2025 08:53:13 UTC
 <!--END_SECTION:waka-->
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sunil0620&theme=tokyonight" alt="GitHub Streak" />
