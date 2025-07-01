@@ -42,12 +42,77 @@
 
 � **This week I spent my time on:**
 <!--START_SECTION:waka-->
-```txt
-Python       4 hrs 15 mins   ██████████████████▓░░░░░░   65.30 %
-JavaScript   1 hr 45 mins    ███████▒░░░░░░░░░░░░░░░░░   22.15 %
-Java         35 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   09.25 %
-HTML         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   03.30 %
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-21-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 ? Used in GitHub's Storage 
+ > 
+> 🏆 98 Contributions in the Year 2025
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 5 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                6 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
+🌆 Daytime                46 commits          █████████░░░░░░░░░░░░░░░░   35.38 % 
+🌃 Evening                71 commits          ██████████████░░░░░░░░░░░   54.62 % 
+🌙 Night                  7 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
 ```
+📅 **I'm Most Productive on Thursday** 
+
+```text
+Monday                   16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
+Tuesday                  13 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+Wednesday                16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
+Thursday                 26 commits          █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+Friday                   16 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.31 % 
+Saturday                 17 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.08 % 
+Sunday                   26 commits          █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Python** 
+
+```text
+Python                   2 repos             ████████████░░░░░░░░░░░░░   50.00 % 
+Java                     1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+C                        1 repo              ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/Sunil0620/Sunil0620/main/assets/bar_graph.png)
+
+
+ Last Updated on 01/07/2025 08:53:13 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
