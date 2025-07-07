@@ -11,7 +11,13 @@ jobs:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "📊 Update WakaTime stats"
+          file_pattern: "README.md"
