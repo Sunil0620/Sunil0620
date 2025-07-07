@@ -46,7 +46,7 @@ No activity tracked
 <!--END_SECTION:waka-->
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sunil0620&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sunil0620&theme=tokyonight&hide_border=true&card_width=500" alt="GitHub Streak" />
 </div>
 
 ## 📝 Todo Tasks
