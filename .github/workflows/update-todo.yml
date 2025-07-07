@@ -8,7 +8,7 @@ on:
 
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: Update README with Todoist stats
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,8 +21,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
       - name: Update Todoist Stats
         run: |
-          # Get Todoist data using API
-          TODOIST_DATA=$(curl -s "https://api.todoist.com/rest/v2/stats" \
+          # Get Todoist data using sync API
+          TODOIST_DATA=$(curl -s "https://api.todoist.com/sync/v9/completed/get_stats" \
             -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}")
           
           COMPLETED_TODAY=$(echo "$TODOIST_DATA" | jq -r '.days_items[0].total_completed // 0')
@@ -32,7 +32,7 @@ jobs:
           # Calculate longest streak (simplified)
           LONGEST_STREAK=$(echo "$TODOIST_DATA" | jq -r '.max_day_streak // 0')
           
-          # Update README.md
+          # Update README.md with Todoist stats
           sed -i "s/🏆.*Karma Points/🏆  $KARMA_POINTS Karma Points/" README.md
           sed -i "s/🌸.*tasks today/🌸  Completed $COMPLETED_TODAY tasks today/" README.md
           sed -i "s/✅.*tasks so far/✅  Completed $TOTAL_COMPLETED tasks so far/" README.md
