@@ -38,9 +38,16 @@ jobs:
           sed -i "s/✅.*tasks so far/✅  Completed $TOTAL_COMPLETED tasks so far/" README.md
           sed -i "s/⏳.*streak is.*days/⏳  Longest streak is $LONGEST_STREAK days/" README.md
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "📝 Update Todoist stats"
-          file_pattern: "README.md"
-          push_options: --force
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are any changes
+          if [[ -n $(git status --porcelain) ]]; then
+            git add README.md
+            git commit -m "📝 Update Todoist stats"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
           
