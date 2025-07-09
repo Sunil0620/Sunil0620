@@ -120,9 +120,9 @@ C                        1 repo              ████░░░░░░░�
 
 ## 📝 Todo Tasks
 <!-- TODO-IST:START -->
-🏆  100.0 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 0 tasks so far           
+🏆  150.0 Karma Points           
+🌸  Completed 5 tasks today           
+✅  Completed 5 tasks so far           
 ⏳  Longest streak is 0 days
 <!-- TODO-IST:END -->
 
