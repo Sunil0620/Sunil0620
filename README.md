@@ -111,12 +111,13 @@ C                        1 repo              ████░░░░░░░�
 <!--END_SECTION:waka-->
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Sunil0620&theme=tokyonight&hide_border=true&card_width=500&date_format=M%20j%5B%2C%20Y%5D&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7" alt="GitHub Streak" />
-</div>
+  
+### 📊 GitHub Activity
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunil0620&theme=tokyonight&hide_border=true&layout=compact&card_width=445&cache_seconds=86400" alt="Top Languages" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=Sunil0620&theme=tokyonight&hide_border=true&card_width=500&date_format=M%20j%5B%2C%20Y%5D&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7)
+
 </div>
 
 ## 📝 Todo Tasks
