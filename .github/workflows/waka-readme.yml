@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
+      
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
