@@ -39,8 +39,8 @@ jobs:
           sed -i "s/⏳.*streak is.*days/⏳  Longest streak is $LONGEST_STREAK days/" README.md
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "sunilsaini5652@gmail.com"
+          git config --local user.name "Sunil0620"
           
           # Check if there are any changes
           if [[ -n $(git status --porcelain) ]]; then
