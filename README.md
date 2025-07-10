@@ -116,7 +116,7 @@ C                        1 repo              ████░░░░░░░�
 
 ## 📊 GitHub Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&hide_border=true) ![GitHub Streak](https://streak-stats.demolab.com/?user=Sunil0620&theme=tokyonight&hide_border=true&card_width=500&date_format=M%20j%5B%2C%20Y%5D&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&hide_border=true) ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Sunil0620&theme=tokyonight&hide_border=true)
 
 </div>
 
