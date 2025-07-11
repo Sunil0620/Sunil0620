@@ -74,11 +74,11 @@ jobs:
           git config --local user.name "Sunil0620"
 
           # Update README.md with Todoist stats (before git add)
-          sed -i "s|🏆.*Karma Points.*|🏆 Karma Points: $KARMA_POINTS|" README.md
-          sed -i "s|🌸.*Completed Today.*|🌸 Completed Today: $COMPLETED_TODAY|" README.md
-          sed -i "s|✅.*Total Completed.*|✅ Total Completed: $TOTAL_COMPLETED|" README.md
-          sed -i "s|⏳.*Longest Streak.*|⏳ Longest Streak: ${LONGEST_STREAK} days|" README.md
-          sed -i "s|🔥.*Current Streak.*|🔥 Current Streak: ${CURRENT_STREAK} days|" README.md
+          sed -i "s|🏆 Karma Points:.*|\n🏆 Karma Points: $KARMA_POINTS|" README.md
+          sed -i "s|🌸 Completed Today:.*|\n🌸 Completed Today: $COMPLETED_TODAY|" README.md
+          sed -i "s|✅ Total Completed:.*|\n✅ Total Completed: $TOTAL_COMPLETED|" README.md
+          sed -i "s|⏳ Longest Streak:.*|\n⏳ Longest Streak: ${LONGEST_STREAK} days|" README.md
+          sed -i "s|🔥 Current Streak:.*|\n🔥 Current Streak: ${CURRENT_STREAK} days|" README.md
 
           if [[ -n $(git status --porcelain) ]]; then
             git add README.md
