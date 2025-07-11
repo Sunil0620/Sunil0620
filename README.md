@@ -122,13 +122,18 @@ C                        1 repo              ████░░░░░░░�
 
 </div>
 
-## 📝 Todo Tasks
+## 📝 TODO TASK
+
+<div align="center">
+
 <!-- TODO-IST:START -->
-🏆  550.0 Karma Points           
-🌸  Completed 7 tasks today           
-✅  Completed 27 tasks so far           
-⏳  Longest streak is 0 days
+![Karma Points](https://img.shields.io/badge/🏆_Karma_Points-550-FF6B6B?style=for-the-badge&labelColor=1a1b27)
+![Tasks Today](https://img.shields.io/badge/🌸_Completed_Today-7-4ECDC4?style=for-the-badge&labelColor=1a1b27)
+![Total Tasks](https://img.shields.io/badge/✅_Total_Completed-27-45B7D1?style=for-the-badge&labelColor=1a1b27)
+![Longest Streak](https://img.shields.io/badge/⏳_Longest_Streak-0_days-96CEB4?style=for-the-badge&labelColor=1a1b27)
 <!-- TODO-IST:END -->
+
+</div>
 
 ## 🤝 Connect with Me
 
