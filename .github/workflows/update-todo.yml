@@ -68,10 +68,11 @@ jobs:
           echo -e "  - Longest Streak: ${BLUE}$LONGEST_STREAK${NC} days"
           echo -e "  - Current Streak: ${BLUE}$CURRENT_STREAK${NC} days"
 
-          sed -i "s/🏆.*Karma Points.*/🏆 Karma Points: $KARMA_POINTS/" README.md
-          sed -i "s/🌸.*tasks today.*/🌸 Completed Today: $COMPLETED_TODAY/" README.md
-          sed -i "s/✅.*tasks so far.*/✅ Total Completed: $TOTAL_COMPLETED/" README.md
-          sed -i "s/⏳.*streak is.*days.*/⏳ Longest Streak: ${LONGEST_STREAK} days/" README.md
+          sed -i "s/🏆.*Karma Points.*/🏆 Karma Points: <span style=\"color:#1e90ff\">$KARMA_POINTS<\/span>/" README.md
+          sed -i "s/🌸.*tasks today.*/🌸 Completed Today: <span style=\"color:#1e90ff\">$COMPLETED_TODAY<\/span>/" README.md
+          sed -i "s/✅.*tasks so far.*/✅ Total Completed: <span style=\"color:#1e90ff\">$TOTAL_COMPLETED<\/span>/" README.md
+          sed -i "s/⏳.*streak is.*days.*/⏳ Longest Streak: <span style=\"color:#1e90ff\">${LONGEST_STREAK}<\/span> days/" README.md
+          sed -i "s/🔥.*Current Streak.*/🔥 Current Streak: <span style=\"color:#1e90ff\">${CURRENT_STREAK}<\/span> days/" README.md
 
       - name: Commit and Push Changes
         run: |
