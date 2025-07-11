@@ -73,12 +73,8 @@ jobs:
             sed -i '/## 📝 Todo Tasks/i \\n<!-- TODOIST STATS START -->\n🏆 Karma Points: <span style="color:#1e90ff">$KARMA_POINTS<\/span>\n🌸 Completed Today: <span style="color:#1e90ff">$COMPLETED_TODAY<\/span>\n✅ Total Completed: <span style="color:#1e90ff">$TOTAL_COMPLETED<\/span>\n⏳ Longest Streak: <span style="color:#1e90ff">${LONGEST_STREAK}<\/span> days\n🔥 Current Streak: <span style="color:#1e90ff">${CURRENT_STREAK}<\/span> days\n<!-- TODOIST STATS END -->\n' README.md
           fi
 
-          # Ensure each stat is on its own line (fix accidental single-line)
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/ *🏆/\n🏆/g" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/ *🌸/\n🌸/g" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/ *✅/\n✅/g" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/ *⏳/\n⏳/g" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/ *🔥/\n🔥/g" README.md
+          # Remove extra blank lines between stats in TODOIST STATS block
+          sed -i '/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/{N;s/\n\([🌸✅⏳🔥]\)/\1/;}' README.md
 
           # Update stats inside TODOIST STATS block
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🏆 Karma Points:.*/🏆 Karma Points: <span style=\"color:#1e90ff\">$KARMA_POINTS<\/span>/" README.md
