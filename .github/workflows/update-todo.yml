@@ -56,7 +56,6 @@ jobs:
           echo "Completed Today: $COMPLETED_TODAY"
           echo "Total Completed: $TOTAL_COMPLETED" 
           echo "Karma Points: $KARMA_POINTS"
-          echo "
           echo "Current Streak: $CURRENT_STREAK"
           
           # Update README.md with Todoist stats in colorful badge format, each on a new line
