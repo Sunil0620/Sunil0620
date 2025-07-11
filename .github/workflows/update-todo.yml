@@ -26,6 +26,9 @@ jobs:
           TODOIST_DATA=$(curl -s "https://api.todoist.com/sync/v9/completed/get_stats" \
             -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}")
           
+          echo "Raw API Response:"
+          echo "$TODOIST_DATA" | jq '.'
+          
           # Extract basic stats
           COMPLETED_TODAY=$(echo "$TODOIST_DATA" | jq -r '.days_items[0].total_completed // 0')
           TOTAL_COMPLETED=$(echo "$TODOIST_DATA" | jq -r '.completed_count // 0')
@@ -37,17 +40,27 @@ jobs:
           
           # If no streak data, calculate based on activity (simplified)
           if [[ "$LONGEST_STREAK" == "0" || "$LONGEST_STREAK" == "null" ]]; then
+            echo "No streak data from API, calculating based on activity..."
             # If user completed tasks today and has good karma, give them at least 1 day streak
             if [[ "$COMPLETED_TODAY" -gt "0" && "$KARMA_POINTS" -gt "100" ]]; then
               LONGEST_STREAK="1"
             fi
           fi
           
+          echo "Extracted values:"
+          echo "Completed Today: $COMPLETED_TODAY"
+          echo "Total Completed: $TOTAL_COMPLETED" 
+          echo "Karma Points: $KARMA_POINTS"
+          echo "Longest Streak: $LONGEST_STREAK"
+          echo "Current Streak: $CURRENT_STREAK"
+          
           # Update README.md with Todoist stats in blue badge format
-          sed -i "s|🏆 !\[Karma Points\](http://img.shields.io/badge/Karma%20Points-[^)]*)|🏆 ![Karma Points](http://img.shields.io/badge/Karma%20Points-$KARMA_POINTS-blue)|" README.md
-          sed -i "s|🌸 !\[Tasks Today\](http://img.shields.io/badge/Completed%20Today-[^)]*)|🌸 ![Tasks Today](http://img.shields.io/badge/Completed%20Today-$COMPLETED_TODAY-blue)|" README.md
-          sed -i "s|✅ !\[Total Tasks\](http://img.shields.io/badge/Total%20Completed-[^)]*)|✅ ![Total Tasks](http://img.shields.io/badge/Total%20Completed-$TOTAL_COMPLETED-blue)|" README.md
-          sed -i "s|⏳ !\[Longest Streak\](http://img.shields.io/badge/Longest%20Streak-[^)]*)|⏳ ![Longest Streak](http://img.shields.io/badge/Longest%20Streak-${LONGEST_STREAK}%20days-blue)|" README.md
+          sed -i "s/🏆.*Karma Points.*/🏆 ![Karma Points](http:\/\/img.shields.io\/badge\/Karma%20Points-$KARMA_POINTS-blue)/" README.md
+          sed -i "s/🌸.*tasks today.*/🌸 ![Tasks Today](http:\/\/img.shields.io\/badge\/Completed%20Today-$COMPLETED_TODAY-blue)/" README.md
+          sed -i "s/✅.*tasks so far.*/✅ ![Total Tasks](http:\/\/img.shields.io\/badge\/Total%20Completed-$TOTAL_COMPLETED-blue)/" README.md
+          sed -i "s/⏳.*streak is.*days.*/⏳ ![Longest Streak](http:\/\/img.shields.io\/badge\/Longest%20Streak-${LONGEST_STREAK}%20days-blue)/" README.md
+          
+          echo "README.md updated successfully"
       - name: Commit and push changes
         run: |
           git config --local user.email "sunilsaini5652@gmail.com"
@@ -61,3 +74,4 @@ jobs:
           else
             echo "No changes to commit"
           fi
+          
