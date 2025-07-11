@@ -73,15 +73,15 @@ jobs:
             sed -i '/## 📝 Todo Tasks/i \\n<!-- TODOIST STATS START -->\n🏆 Karma Points: <span style="color:#1e90ff">$KARMA_POINTS<\/span>\n🌸 Completed Today: <span style="color:#1e90ff">$COMPLETED_TODAY<\/span>\n✅ Total Completed: <span style="color:#1e90ff">$TOTAL_COMPLETED<\/span>\n⏳ Longest Streak: <span style="color:#1e90ff">${LONGEST_STREAK}<\/span> days\n🔥 Current Streak: <span style="color:#1e90ff">${CURRENT_STREAK}<\/span> days\n<!-- TODOIST STATS END -->\n' README.md
           fi
 
-          # Remove extra blank lines between stats in TODOIST STATS block
-          sed -i '/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/{N;s/\n\([🌸✅⏳🔥]\)/\1/;}' README.md
-
           # Update stats inside TODOIST STATS block
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🏆 Karma Points:.*/🏆 Karma Points: <span style=\"color:#1e90ff\">$KARMA_POINTS<\/span>/" README.md
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🌸 Completed Today:.*/🌸 Completed Today: <span style=\"color:#1e90ff\">$COMPLETED_TODAY<\/span>/" README.md
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/✅ Total Completed:.*/✅ Total Completed: <span style=\"color:#1e90ff\">$TOTAL_COMPLETED<\/span>/" README.md
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/⏳ Longest Streak:.*/⏳ Longest Streak: <span style=\"color:#1e90ff\">${LONGEST_STREAK}<\/span> days/" README.md
           sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🔥 Current Streak:.*/🔥 Current Streak: <span style=\"color:#1e90ff\">${CURRENT_STREAK}<\/span> days/" README.md
+
+          # Remove extra blank lines between stats in TODOIST STATS block
+          sed -i '/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/{N;s/\n\([🌸✅⏳🔥]\)/\1/;t loop;:loop;N;s/\n\([🌸✅⏳🔥]\)/\1/;t loop}' README.md
 
       - name: Commit and Push Changes
         run: |
