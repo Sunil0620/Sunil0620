@@ -36,9 +36,17 @@ jobs:
           COMPLETED_TODAY=$(echo "$TODOIST_DATA" | jq -r '.days_items[0].total_completed // 0')
           TOTAL_COMPLETED=$(echo "$TODOIST_DATA" | jq -r '.completed_count // 0')
           KARMA_POINTS=$(echo "$TODOIST_DATA" | jq -r '.karma // 0')
-          LONGEST_STREAK=$(echo "$TODOIST_DATA" | jq -r '.max_day_streak // 0')
-          CURRENT_STREAK=$(echo "$TODOIST_DATA" | jq -r '.current_day_streak // 0')
+          LONGEST_STREAK=$(echo "$TODOIST_DATA" | jq -r '.max_day_streak // .longest_streak // .streak.longest // 0')
+          CURRENT_STREAK=$(echo "$TODOIST_DATA" | jq -r '.current_day_streak // .current_streak // .streak.current // 0')
 
+          # If no streak data, calculate based on activity (simplified)
+          if [[ "$LONGEST_STREAK" == "0" || "$LONGEST_STREAK" == "null" ]]; then
+            if [[ "$COMPLETED_TODAY" -gt "0" && "$KARMA_POINTS" -gt "100" ]]; then
+              LONGEST_STREAK="1"
+            fi
+          fi
+
+          # Ensure longest streak is at least as high as current streak
           if [[ "$CURRENT_STREAK" -gt "$LONGEST_STREAK" ]]; then
             LONGEST_STREAK="$CURRENT_STREAK"
           fi
@@ -48,30 +56,14 @@ jobs:
           TOTAL_COMPLETED=${TOTAL_COMPLETED%.*}
           KARMA_POINTS=${KARMA_POINTS%.*}
           LONGEST_STREAK=${LONGEST_STREAK%.*}
+          CURRENT_STREAK=${CURRENT_STREAK%.*}
 
           echo "✅ Stats:"
           echo "  - Completed Today: $COMPLETED_TODAY"
           echo "  - Total Completed: $TOTAL_COMPLETED"
           echo "  - Karma Points: $KARMA_POINTS"
           echo "  - Longest Streak: $LONGEST_STREAK days"
-
-          if [[ ! -f README.md ]]; then
-            echo "README.md not found!"
-            exit 1
-          fi
-
-          # Create new stats block
-          NEW_BLOCK="🏆 Karma Points: **$KARMA_POINTS**  \n🌸 Completed Today: **$COMPLETED_TODAY**  \n✅ Total Completed: **$TOTAL_COMPLETED**  \n⏳ Longest Streak: **${LONGEST_STREAK} days**"
-
-          # Safely replace block between <!-- TODO-START --> and <!-- TODO-END -->
-          awk -v block="$NEW_BLOCK" '
-            BEGIN { start=0 }
-            /<!-- TODO-START -->/ { print; start=1; next }
-            /<!-- TODO-END -->/ { start=0; print block; print; next }
-            !start { print }
-          ' README.md > temp.md && mv temp.md README.md
-
-          echo "README.md updated successfully"
+          echo "  - Current Streak: $CURRENT_STREAK days"
 
       - name: Commit and Push Changes
         run: |
