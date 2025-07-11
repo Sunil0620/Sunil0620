@@ -122,18 +122,13 @@ C                        1 repo              ████░░░░░░░�
 
 </div>
 
-## 📝 TODO TASK
-
-<div align="center">
-
+## 📝 Todo Tasks
 <!-- TODO-IST:START -->
-![Karma Points](https://img.shields.io/badge/🏆_Karma_Points-550-FF6B6B?style=for-the-badge&labelColor=1a1b27)
-![Tasks Today](https://img.shields.io/badge/🌸_Completed_Today-7-4ECDC4?style=for-the-badge&labelColor=1a1b27)
-![Total Tasks](https://img.shields.io/badge/✅_Total_Completed-27-45B7D1?style=for-the-badge&labelColor=1a1b27)
-![Longest Streak](https://img.shields.io/badge/⏳_Longest_Streak-0_days-96CEB4?style=for-the-badge&labelColor=1a1b27)
+🏆 ![Karma Points](http://img.shields.io/badge/Karma%20Points-550-blue)
+🌸 ![Tasks Today](http://img.shields.io/badge/Completed%20Today-7-blue)
+✅ ![Total Tasks](http://img.shields.io/badge/Total%20Completed-27-blue)
+⏳ ![Longest Streak](http://img.shields.io/badge/Longest%20Streak-0%20days-blue)
 <!-- TODO-IST:END -->
-
-</div>
 
 ## 🤝 Connect with Me
 
