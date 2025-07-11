@@ -58,11 +58,11 @@ jobs:
           echo "Karma Points: $KARMA_POINTS"
           echo "Current Streak: $CURRENT_STREAK"
           
-          # Update README.md with Todoist stats in colorful badge format, each on a new line
-          sed -i "s/🏆.*Karma Points.*/🏆 ![Karma Points](http:\/\/img.shields.io\/badge\/Karma%20Points-$KARMA_POINTS-purple?style=for-the-badge)<br>/" README.md
-          sed -i "s/🌸.*tasks today.*/🌸 ![Tasks Today](http:\/\/img.shields.io\/badge\/Completed%20Today-$COMPLETED_TODAY-brightgreen?style=for-the-badge)<br>/" README.md
-          sed -i "s/✅.*tasks so far.*/✅ ![Total Tasks](http:\/\/img.shields.io\/badge\/Total%20Completed-$TOTAL_COMPLETED-orange?style=for-the-badge)<br>/" README.md
-          sed -i "s/⏳.*streak is.*days.*/⏳ ![Longest Streak](http:\/\/img.shields.io\/badge\/Longest%20Streak-${LONGEST_STREAK}%20days-blueviolet?style=for-the-badge)<br>/" README.md
+          # Update README.md with Todoist stats
+          sed -i "s/🏆.*Karma Points.*/🏆 Karma Points: <span style=\"color:purple;font-weight:bold\">$KARMA_POINTS<\/span>/" README.md
+          sed -i "s/🌸.*tasks today.*/🌸 Completed Today: <span style=\"color:green;font-weight:bold\">$COMPLETED_TODAY<\/span>/" README.md
+          sed -i "s/✅.*tasks so far.*/✅ Total Completed: <span style=\"color:orange;font-weight:bold\">$TOTAL_COMPLETED<\/span>/" README.md
+          sed -i "s/⏳.*streak is.*days.*/⏳ Longest Streak: <span style=\"color:blueviolet;font-weight:bold\">${LONGEST_STREAK} days<\/span>/" README.md
           
           echo "README.md updated successfully"
       - name: Commit and push changes
