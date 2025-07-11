@@ -3,8 +3,7 @@ name: Todoist Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 2 hours
-    - cron: "0 */2 * * *"
+    - cron: "0 */2 * * *" # Runs every 2 hours
 
 jobs:
   update-readme:
@@ -12,69 +11,76 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
+
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
-      - name: Update Todoist Stats
+
+      - name: Fetch Todoist Stats
         run: |
-          # Get Todoist data using sync API
           echo "Fetching Todoist stats..."
           TODOIST_DATA=$(curl -s "https://api.todoist.com/sync/v9/completed/get_stats" \
             -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}")
-          
-          echo "Raw API Response:"
-          echo "$TODOIST_DATA" | jq '.'
-          
-          # Extract basic stats
+
+          if [[ -z "$TODOIST_DATA" || "$TODOIST_DATA" == "null" ]]; then
+            echo "Failed to fetch data from Todoist API"
+            exit 1
+          fi
+
           COMPLETED_TODAY=$(echo "$TODOIST_DATA" | jq -r '.days_items[0].total_completed // 0')
           TOTAL_COMPLETED=$(echo "$TODOIST_DATA" | jq -r '.completed_count // 0')
           KARMA_POINTS=$(echo "$TODOIST_DATA" | jq -r '.karma // 0')
-          
-          # Try multiple ways to get streak data
-          LONGEST_STREAK=$(echo "$TODOIST_DATA" | jq -r '.streak.longest // .max_day_streak // .longest_streak // 0')
-          CURRENT_STREAK=$(echo "$TODOIST_DATA" | jq -r '.streak.current // .current_streak // 0')
-          
-          # If no streak data, calculate based on activity (simplified)
-          if [[ "$LONGEST_STREAK" == "0" || "$LONGEST_STREAK" == "null" ]]; then
-            echo "No streak data from API, calculating based on activity..."
-            # If user completed tasks today and has good karma, give them at least 1 day streak
-            if [[ "$COMPLETED_TODAY" -gt "0" && "$KARMA_POINTS" -gt "100" ]]; then
-              LONGEST_STREAK="1"
-            fi
-          fi
+          LONGEST_STREAK=$(echo "$TODOIST_DATA" | jq -r '.max_day_streak // 0')
+          CURRENT_STREAK=$(echo "$TODOIST_DATA" | jq -r '.current_day_streak // 0')
 
-          # Ensure longest streak is at least as high as current streak
           if [[ "$CURRENT_STREAK" -gt "$LONGEST_STREAK" ]]; then
             LONGEST_STREAK="$CURRENT_STREAK"
           fi
-          
-          echo "Extracted values:"
-          echo "Completed Today: $COMPLETED_TODAY"
-          echo "Total Completed: $TOTAL_COMPLETED" 
-          echo "Karma Points: $KARMA_POINTS"
-          echo "Current Streak: $CURRENT_STREAK"
-          
-          # Update README.md with Todoist stats
-          sed -i "s/🏆.*Karma Points.*/🏆 Karma Points: <span style=\"color:purple;font-weight:bold\">$KARMA_POINTS<\/span>/" README.md
-          sed -i "s/🌸.*tasks today.*/🌸 Completed Today: <span style=\"color:green;font-weight:bold\">$COMPLETED_TODAY<\/span>/" README.md
-          sed -i "s/✅.*tasks so far.*/✅ Total Completed: <span style=\"color:orange;font-weight:bold\">$TOTAL_COMPLETED<\/span>/" README.md
-          sed -i "s/⏳.*streak is.*days.*/⏳ Longest Streak: <span style=\"color:blueviolet;font-weight:bold\">${LONGEST_STREAK} days<\/span>/" README.md
-          
+
+          # Trim decimals if any
+          COMPLETED_TODAY=${COMPLETED_TODAY%.*}
+          TOTAL_COMPLETED=${TOTAL_COMPLETED%.*}
+          KARMA_POINTS=${KARMA_POINTS%.*}
+          LONGEST_STREAK=${LONGEST_STREAK%.*}
+
+          echo "✅ Stats:"
+          echo "  - Completed Today: $COMPLETED_TODAY"
+          echo "  - Total Completed: $TOTAL_COMPLETED"
+          echo "  - Karma Points: $KARMA_POINTS"
+          echo "  - Longest Streak: $LONGEST_STREAK days"
+
+          if [[ ! -f README.md ]]; then
+            echo "README.md not found!"
+            exit 1
+          fi
+
+          # Create new stats block
+          NEW_BLOCK="🏆 Karma Points: **$KARMA_POINTS**  \n🌸 Completed Today: **$COMPLETED_TODAY**  \n✅ Total Completed: **$TOTAL_COMPLETED**  \n⏳ Longest Streak: **${LONGEST_STREAK} days**"
+
+          # Safely replace block between <!-- TODO-START --> and <!-- TODO-END -->
+          awk -v block="$NEW_BLOCK" '
+            BEGIN { start=0 }
+            /<!-- TODO-START -->/ { print; start=1; next }
+            /<!-- TODO-END -->/ { start=0; print block; print; next }
+            !start { print }
+          ' README.md > temp.md && mv temp.md README.md
+
           echo "README.md updated successfully"
-      - name: Commit and push changes
+
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "sunilsaini5652@gmail.com"
-          git config --local user.name "Sunil0620"
-          
-          # Check if there are any changes
+          git config --local user.email "${{ secrets.GIT_EMAIL }}"
+          git config --local user.name "${{ secrets.GIT_USERNAME }}"
+
           if [[ -n $(git status --porcelain) ]]; then
             git add README.md
             git commit -m "📝 Update Todoist stats"
             git push origin main
           else
             echo "No changes to commit"
-          fi
