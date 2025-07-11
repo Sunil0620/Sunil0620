@@ -122,7 +122,7 @@ C                        1 repo              ████░░░░░░░�
 
 </div>
 
-## 📝 Todo Tasks
+🚧 **my todoist stats:**
 <!-- TODO-IST:START -->
 🏆 Karma Points: 722
 🌸 Completed Today: 11
