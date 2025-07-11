@@ -124,10 +124,10 @@ C                        1 repo              ████░░░░░░░�
 
 ## 📝 Todo Tasks
 <!-- TODO-IST:START -->
-🏆  550.0 Karma Points           
-🌸  Completed 7 tasks today           
-✅  Completed 27 tasks so far           
-⏳  Longest streak is 3 days
+🏆 ![Karma Points](http://img.shields.io/badge/Karma%20Points-722.0-blue)
+🌸 ![Tasks Today](http://img.shields.io/badge/Completed%20Today-10-blue)
+✅ ![Total Tasks](http://img.shields.io/badge/Total%20Completed-30-blue)
+⏳ ![Longest Streak](http://img.shields.io/badge/Longest%20Streak-0%20days-blue)
 <!-- TODO-IST:END -->
 
 ## 🤝 Connect with Me
