@@ -68,25 +68,17 @@ jobs:
           echo -e "  - Longest Streak: ${BLUE}$LONGEST_STREAK${NC} days"
           echo -e "  - Current Streak: ${BLUE}$CURRENT_STREAK${NC} days"
 
-          # Ensure TODOIST STATS block exists in README.md
-          if ! grep -q "<!-- TODOIST STATS START -->" README.md; then
-            sed -i '/## 📝 Todo Tasks/i \\n<!-- TODOIST STATS START -->\n🏆 Karma Points: <span style="color:#1e90ff">$KARMA_POINTS<\/span>\n🌸 Completed Today: <span style="color:#1e90ff">$COMPLETED_TODAY<\/span>\n✅ Total Completed: <span style="color:#1e90ff">$TOTAL_COMPLETED<\/span>\n⏳ Longest Streak: <span style="color:#1e90ff">${LONGEST_STREAK}<\/span> days\n🔥 Current Streak: <span style="color:#1e90ff">${CURRENT_STREAK}<\/span> days\n<!-- TODOIST STATS END -->\n' README.md
-          fi
-
-          # Update stats inside TODOIST STATS block
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🏆 Karma Points:.*/🏆 Karma Points: <span style=\"color:#1e90ff\">$KARMA_POINTS<\/span>/" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🌸 Completed Today:.*/🌸 Completed Today: <span style=\"color:#1e90ff\">$COMPLETED_TODAY<\/span>/" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/✅ Total Completed:.*/✅ Total Completed: <span style=\"color:#1e90ff\">$TOTAL_COMPLETED<\/span>/" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/⏳ Longest Streak:.*/⏳ Longest Streak: <span style=\"color:#1e90ff\">${LONGEST_STREAK}<\/span> days/" README.md
-          sed -i "/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/s/🔥 Current Streak:.*/🔥 Current Streak: <span style=\"color:#1e90ff\">${CURRENT_STREAK}<\/span> days/" README.md
-
-          # Remove extra blank lines between stats in TODOIST STATS block
-          sed -i '/<!-- TODOIST STATS START -->/,/<!-- TODOIST STATS END -->/{N;s/\n\([🌸✅⏳🔥]\)/\1/;t loop;:loop;N;s/\n\([🌸✅⏳🔥]\)/\1/;t loop}' README.md
-
       - name: Commit and Push Changes
         run: |
           git config --local user.email "sunilsaini5652@gmail.com"
           git config --local user.name "Sunil0620"
+
+          # Update README.md with Todoist stats (before git add)
+          sed -i "s|🏆.*Karma Points.*|🏆 Karma Points: $KARMA_POINTS|" README.md
+          sed -i "s|🌸.*Completed Today.*|🌸 Completed Today: $COMPLETED_TODAY|" README.md
+          sed -i "s|✅.*Total Completed.*|✅ Total Completed: $TOTAL_COMPLETED|" README.md
+          sed -i "s|⏳.*Longest Streak.*|⏳ Longest Streak: ${LONGEST_STREAK} days|" README.md
+          sed -i "s|🔥.*Current Streak.*|🔥 Current Streak: ${CURRENT_STREAK} days|" README.md
 
           if [[ -n $(git status --porcelain) ]]; then
             git add README.md
