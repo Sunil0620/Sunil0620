@@ -124,7 +124,7 @@ C                        1 repo              ████░░░░░░░�
 
 ## 📝 Todo Tasks
 <!-- TODO-IST:START -->
-🏆 ![Karma Points](http://img.shields.io/badge/Karma%20Points-722.0-blue)
+🏆 ![Karma Points](http://img.shields.io/badge/Karma%20Points-722.0-purple?style=for-the-badge)<br>
 🌸 ![Tasks Today](http://img.shields.io/badge/Completed%20Today-10-blue)
 ✅ ![Total Tasks](http://img.shields.io/badge/Total%20Completed-30-blue)
 ⏳ ![Longest Streak](http://img.shields.io/badge/Longest%20Streak-0%20days-blue)
