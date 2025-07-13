@@ -51,11 +51,11 @@ jobs:
           git config --local user.email "sunilsaini5652@gmail.com"
           git config --local user.name "Sunil0620"
 
-          sed -i "s|🏆  .*Karma Points.*|🏆  $KARMA_POINTS Karma Points           |" README.md
-          sed -i "s|🌸  Completed .*tasks today.*|🌸  Completed $COMPLETED_TODAY tasks today           |" README.md
-          sed -i "s|✅  Completed .*tasks so far.*|✅  Completed $TOTAL_COMPLETED tasks so far           |" README.md
-          sed -i "s|⏳  Longest streak is .*days.*|⏳  Longest streak is ${LONGEST_STREAK} days           |" README.md
-          sed -i "s|🔥  Current streak is .*days.*|🔥  Current streak is ${CURRENT_STREAK} days|" README.md
+          sed -i "s|🏆[[:space:]]*.*Karma Points.*|🏆  $KARMA_POINTS Karma Points           |" README.md
+          sed -i "s|🌸[[:space:]]*Completed .*tasks today.*|🌸  Completed $COMPLETED_TODAY tasks today           |" README.md
+          sed -i "s|✅[[:space:]]*Completed .*tasks so far.*|✅  Completed $TOTAL_COMPLETED tasks so far           |" README.md
+          sed -i "s|⏳[[:space:]]*Longest streak is .*days.*|⏳  Longest streak is ${LONGEST_STREAK} days           |" README.md
+          sed -i "s|🔥[[:space:]]*Current streak is .*days.*|🔥  Current streak is ${CURRENT_STREAK} days|" README.md
 
           if [[ -n $(git status --porcelain) ]]; then
             git add README.md
