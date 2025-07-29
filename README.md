@@ -120,11 +120,11 @@ C                        1 repo              ████░░░░░░░�
 
 🚧 **my todoist stats:**
 <!-- TODO-IST:START -->
-🏆  1711 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 143 tasks so far           
-⏳  Longest streak is 18 days           
-🔥  Current streak is 18 days
+🏆  1754 Karma Points           
+🌸  Completed 8 tasks today           
+✅  Completed 151 tasks so far           
+⏳  Longest streak is 19 days           
+🔥  Current streak is 19 days
 <!-- TODO-IST:END -->
 
 ## 🤝 Connect with Me
