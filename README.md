@@ -81,15 +81,13 @@ Sunday                   50 commits          ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-Markdown                 2 mins              ████████████████████████░   94.38 % 
-Python                   0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.20 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-PY                       2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -105,7 +103,7 @@ C                        1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 16/08/2025 03:09:26 UTC
+ Last Updated on 17/08/2025 03:19:55 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
