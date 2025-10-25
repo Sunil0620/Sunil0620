@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Install jq
@@ -25,8 +25,22 @@ jobs:
       - name: Fetch Todoist Stats and Save to Env
         run: |
           echo "Fetching Todoist stats..."
-          TODOIST_DATA=$(curl -s "https://api.todoist.com/sync/v9/completed/get_stats" \
-            -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}")
+          TODOIST_RESPONSE_FILE=$(mktemp)
+          if ! curl -sS -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}" \
+            "https://api.todoist.com/sync/v9/completed/get_stats" -o "$TODOIST_RESPONSE_FILE"; then
+            echo "[todoist] Failed to fetch Todoist API (curl error). Skipping README update."
+            rm -f "$TODOIST_RESPONSE_FILE"
+            exit 0
+          fi
+
+          # Validate JSON before continuing. If invalid, skip update to avoid corrupting README.
+          if ! jq -e . "$TODOIST_RESPONSE_FILE" >/dev/null 2>&1; then
+            echo "[todoist] Received invalid JSON from Todoist API. Skipping README update."
+            rm -f "$TODOIST_RESPONSE_FILE"
+            exit 0
+          fi
+
+          TODOIST_DATA=$(cat "$TODOIST_RESPONSE_FILE")
 
           COMPLETED_TODAY=$(echo "$TODOIST_DATA" | jq -r '.days_items[0].total_completed // 0')
           TOTAL_COMPLETED=$(echo "$TODOIST_DATA" | jq -r '.completed_count // 0')
@@ -40,17 +54,22 @@ jobs:
           LONGEST_STREAK=${LONGEST_STREAK%.*}
           CURRENT_STREAK=${CURRENT_STREAK%.*}
 
+          # Print values for debugging (these are numeric and safe). Do NOT echo secrets/tokens.
           echo "KARMA_POINTS=$KARMA_POINTS"
           echo "COMPLETED_TODAY=$COMPLETED_TODAY"
           echo "TOTAL_COMPLETED=$TOTAL_COMPLETED"
           echo "LONGEST_STREAK=$LONGEST_STREAK"
           echo "CURRENT_STREAK=$CURRENT_STREAK"
 
-          sed -i "s|🏆  .*Karma Points.*|🏆  $KARMA_POINTS Karma Points           |" README.md
-          sed -i "s|🌸  Completed .*tasks today.*|🌸  Completed $COMPLETED_TODAY tasks today           |" README.md
-          sed -i "s|✅  Completed .*tasks so far.*|✅  Completed $TOTAL_COMPLETED tasks so far           |" README.md
-          sed -i "s|⏳  Longest streak is .*days.*|⏳  Longest streak is ${LONGEST_STREAK} days           |" README.md
-          sed -i "s|🔥  Current streak is .*days.*|🔥  Current streak is ${CURRENT_STREAK} days|" README.md
+          # Replace only the block between the TODO-IST markers to avoid accidental matches elsewhere.
+            awk -v kp="$KARMA_POINTS" -v ct="$COMPLETED_TODAY" -v tot="$TOTAL_COMPLETED" -v ls="$LONGEST_STREAK" -v cs="$CURRENT_STREAK" '
+            /<!-- TODO-IST:START -->/ { print; print "🏆  " kp " Karma Points           "; print "🌸  Completed " ct " tasks today           "; print "✅  Completed " tot " tasks so far           "; print "⏳  Longest streak is " ls " days           "; print "🔥  Current streak is " cs " days"; skip=1; next }
+          /<!-- TODO-IST:END -->/ { if(skip){ print; skip=0; next } }
+          { if(!skip) print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+          # cleanup temp response file
+          rm -f "$TODOIST_RESPONSE_FILE"
       - name: Commit and Push Changes
         run: |
           git config --local user.email "sunilsaini5652@gmail.com"
