@@ -38,13 +38,15 @@
 ## 📈 GitHub Stats
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-25-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-11%20hrs%2050%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-85-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 1.6 kB Used in GitHub's Storage 
+> 📦 1.5 kB Used in GitHub's Storage 
  > 
-> 🏆 282 Contributions in the Year 2025
+> 🏆 284 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -52,13 +54,13 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm an Early 🐤** 
+**I'm a Night 🦉** 
 
 ```text
-🌞 Morning                32 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.85 % 
-🌆 Daytime                131 commits         ██████████░░░░░░░░░░░░░░░   40.31 % 
-🌃 Evening                123 commits         █████████░░░░░░░░░░░░░░░░   37.85 % 
-🌙 Night                  39 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
+🌞 Morning                32 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.73 % 
+🌆 Daytime                131 commits         ██████████░░░░░░░░░░░░░░░   39.82 % 
+🌃 Evening                125 commits         █████████░░░░░░░░░░░░░░░░   37.99 % 
+🌙 Night                  41 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.46 % 
 ```
 
 
@@ -68,13 +70,15 @@
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+YAML                     48 mins             ██████████████████░░░░░░░   72.44 % 
+Markdown                 18 mins             ███████░░░░░░░░░░░░░░░░░░   27.47 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Sunil0620                1 hr 6 mins         █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      1 hr 6 mins         █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -90,7 +94,7 @@ C                        1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 25/10/2025 14:32:12 UTC
+ Last Updated on 26/10/2025 03:04:17 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
