@@ -113,7 +113,7 @@ C                        1 repo              ████░░░░░░░�
 🌸  Completed 0 tasks today           
 ✅  Completed 290 tasks so far           
 ⏳  Longest streak is 29 days           
-🔥  Current streak is 2 days
+🔥  Current streak is 0 days
 <!-- TODO-IST:END -->
 
 ## 🤝 Connect with Me
