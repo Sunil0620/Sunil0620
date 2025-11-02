@@ -38,15 +38,13 @@
 ## 📈 GitHub Stats
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-13%20hrs%201%20min-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-88-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-82-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.6 kB Used in GitHub's Storage 
  > 
-> 🏆 291 Contributions in the Year 2025
+> 🏆 292 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -54,36 +52,6 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                34 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.97 % 
-🌆 Daytime                131 commits         ██████████░░░░░░░░░░░░░░░   38.42 % 
-🌃 Evening                127 commits         █████████░░░░░░░░░░░░░░░░   37.24 % 
-🌙 Night                  49 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.37 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-YAML                     48 mins             █████████████████░░░░░░░░   67.85 % 
-Markdown                 18 mins             ██████░░░░░░░░░░░░░░░░░░░   25.73 % 
-Python                   3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.44 % 
-TOML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.59 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 % 
-
-🐱‍💻 Projects: 
-Sunil0620                1 hr 6 mins         ███████████████████████░░   93.67 % 
-Automated-Question-Genera4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.33 % 
-
-💻 Operating System: 
-Mac                      1 hr 11 mins        █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in Python** 
 
 ```text
@@ -97,7 +65,7 @@ C                        1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 01/11/2025 03:05:25 UTC
+ Last Updated on 02/11/2025 03:09:05 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
