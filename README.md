@@ -52,6 +52,31 @@
  > 
 > 🔑 0 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                42 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.79 % 
+🌆 Daytime                141 commits         ████████░░░░░░░░░░░░░░░░░   32.87 % 
+🌃 Evening                143 commits         ████████░░░░░░░░░░░░░░░░░   33.33 % 
+🌙 Night                  103 commits         ██████░░░░░░░░░░░░░░░░░░░   24.01 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -65,7 +90,7 @@ C                        1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 03/01/2026 03:15:52 UTC
+ Last Updated on 04/01/2026 03:43:21 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
