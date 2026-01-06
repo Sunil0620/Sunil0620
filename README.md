@@ -38,7 +38,9 @@
 ## 📈 GitHub Stats
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-15%20hrs%2042%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -90,7 +92,7 @@ C                        1 repo              ████░░░░░░░�
 
 
 
- Last Updated on 04/01/2026 03:43:21 UTC
+ Last Updated on 06/01/2026 03:22:34 UTC
 <!--END_SECTION:waka-->
 
 <div align="center">
