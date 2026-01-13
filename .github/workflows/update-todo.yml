@@ -75,10 +75,6 @@ jobs:
           git config --local user.email "sunilsaini5652@gmail.com"
           git config --local user.name "Sunil0620"
 
-          if [[ -n $(git status --porcelain) ]]; then
-            git add README.md
-            git commit -m "📝 Update Todoist stats"
-            git push origin main
-          else
-            echo "No changes to commit"
-          fi
+          git add README.md
+          git commit -m "📝 Update Todoist stats - $(date)" --allow-empty
+          git push origin main
