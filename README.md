@@ -9,7 +9,9 @@
 
 ### 💫 About Me
 - 🔭 I’m currently working on full-stack web projects using Django + React  
-- 🌱 Currently learning: Machine Learning, TensorFlow, Docker  
+- 🌱 Currently learning: Machine Learning, TensorFlow, Docker, and Cloud Technologies
+- 🎯 Open to: Freelance projects, Internships in AI/ML web developer, Open-source contributions
+- 💼 Looking to collaborate on: Full-stack applications and ML-based solutions
 - 📫 Reach me: **[sunilsaini5652@gmail.com](mailto:sunilsaini5652@gmail.com)**
 - ⚡ Fun fact: I debug better with chai ☕  
 
@@ -98,16 +100,6 @@ C                        1 repo              ████░░░░░░░�
 
  Last Updated on 22/01/2026 03:30:10 UTC
 <!--END_SECTION:waka-->
-
-<div align="center">
-
-## 📊 GitHub Activity
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Sunil0620&theme=tokyonight&hide_border=true)
-
-</div>
 
 🚧 **my todoist stats:**
 <!-- TODO-IST:START -->
