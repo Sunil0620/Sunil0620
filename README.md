@@ -124,11 +124,24 @@
 
 </div>
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-42%20hrs%204%20mins-blue?style=flat)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue?style=flat)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-73.32%20thousand%20lines%20of%20code-blue?style=flat)
+
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                154 commits         █████░░░░░░░░░░░░░░░░░░░░   19.47 % 
+🌆 Daytime                239 commits         ████████░░░░░░░░░░░░░░░░░   30.21 % 
+🌃 Evening                235 commits         ███████░░░░░░░░░░░░░░░░░░   29.71 % 
+🌙 Night                  163 commits         █████░░░░░░░░░░░░░░░░░░░░   20.61 % 
+```
 
 
 
-
- Last Updated on 27/01/2026 10:44:35 UTC
+ Last Updated on 27/01/2026 10:50:48 UTC
 <!--END_SECTION:waka-->
 
 🚧 **my todoist stats:**
