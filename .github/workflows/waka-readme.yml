@@ -18,18 +18,29 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
       
-      - uses: anmol098/waka-readme-stats@master
+      - uses: anmol098/waka-readme-stats@v5
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          COMMIT_MESSAGE: "📊 Update WakaTime stats"
-          SHOW_EDITORS: "False"
-          SHOW_LOC_CHART: "False"
+          SECTION_NAME: "waka"
+          COMMIT_MESSAGE: "Updated with Dev Metrics"
+          COMMIT_USERNAME: "bot"
+          COMMIT_EMAIL: "bot@github.com"
+          COMMIT_BY_ME: "True"
+          SHOW_UPDATED_DATE: "True"
+          UPDATED_DATE_FORMAT: "%d/%m/%Y %H:%M:%S"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_TOTAL_CODE_TIME: "True"
           SHOW_PROFILE_VIEWS: "True"
           SHOW_COMMIT: "True"
           SHOW_DAYS_OF_WEEK: "False"
-          SHOW_LANGUAGE: "True"
-          SHOW_OS: "True"
-          SHOW_PROJECTS: "True"
-          SHOW_TIMEZONE: "True"
-          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_LANGUAGE: "False"
+          SHOW_OS: "False"
+          SHOW_PROJECTS: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_EDITORS: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_SHORT_INFO: "False"
+          SHOW_LOC_CHART: "False"
+          LOCALE: "en"
+          SYMBOL_VERSION: "1"
