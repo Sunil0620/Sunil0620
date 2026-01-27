@@ -25,8 +25,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SECTION_NAME: "waka"
           COMMIT_MESSAGE: "Updated with Dev Metrics"
-          COMMIT_USERNAME: "bot"
-          COMMIT_EMAIL: "bot@github.com"
+          COMMIT_USERNAME: "Sunil0620"
+          COMMIT_EMAIL: "sunilsaini5652@gmail.com"
           COMMIT_BY_ME: "True"
           SHOW_UPDATED_DATE: "True"
           UPDATED_DATE_FORMAT: "%d/%m/%Y %H:%M:%S"
