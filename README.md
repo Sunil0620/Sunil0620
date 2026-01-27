@@ -124,20 +124,7 @@
 
 </div>
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-41%20hrs%2053%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-73.32%20thousand%20lines%20of%20code-blue?style=flat)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                154 commits         █████░░░░░░░░░░░░░░░░░░░░   19.57 % 
-🌆 Daytime                235 commits         ███████░░░░░░░░░░░░░░░░░░   29.86 % 
-🌃 Evening                235 commits         ███████░░░░░░░░░░░░░░░░░░   29.86 % 
-🌙 Night                  163 commits         █████░░░░░░░░░░░░░░░░░░░░   20.71 % 
-```
 
 
 
