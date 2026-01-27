@@ -17,6 +17,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
+          persist-credentials: true
       
       - uses: anmol098/waka-readme-stats@v5
         with:
