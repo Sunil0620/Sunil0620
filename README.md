@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Sunil :) </h1>
+<h2 align="center">Hi 👋, I'm SUN 🌗 :) </h1>
 <h3 align="center">Developer • ML Enthusiast</h3>
 
 <div align="center">
@@ -8,7 +8,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/👀_Profile_Views-Over_9000!-FF6B6B?style=for-the-badge&labelColor=1a1a1a" alt="profile views" />
   <img src="https://img.shields.io/badge/👥_Followers-Mom_+_Dad_+_3_Bots-4ECDC4?style=for-the-badge&labelColor=1a1a1a" alt="followers" />
-  <a href="mailto:sunilsaini5652@gmail.com" target="_blank"><img src="https://img.shields.io/badge/📧_Contact-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="email" /></a>
 </p>
 
 <p align="center">
@@ -17,7 +16,7 @@
 
 ---
 
-## 🔎 About Me
+## 🔎 About Me 
 
 - 🔭 Building full‑stack web apps with Django + React
 - 🌱 Learning: TensorFlow, Docker, PostgreSQL, and Cloud basics
@@ -56,7 +55,7 @@
 
 </div>
 
-### 🎖️ Fun Badges (Because Why Not?)
+### 🎖️  Badges (Because Why Not?)
 
 <div align="center">
 
@@ -82,10 +81,6 @@
 
 ## 🚀 Featured Projects
 
-<!--
-Replace the repo names below with your actual repos to show pinned cards.
-Example: repo=your-repo-name
--->
 <div align="center">
 
 <p>
@@ -197,6 +192,6 @@ C                        1 repo              ████░░░░░░░�
 
 **If you like my work... consider ⭐️ starring the repositories!**
 
-— From <a href="https://github.com/Sunil0620">...Sunil0620... :)</a>
+— From <a href="https://github.com/Sunil0620">...Sunil0620🌟  :)</a>
 
 </div>
