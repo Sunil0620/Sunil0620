@@ -116,10 +116,6 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=transparent&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunil0620&layout=compact&theme=transparent&langs_count=8" />
-
-<br/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sunil0620&theme=github-compact&area=true" />
 
 </div>
