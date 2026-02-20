@@ -27,7 +27,7 @@ jobs:
           echo "Fetching Todoist stats..."
           TODOIST_RESPONSE_FILE=$(mktemp)
           if ! curl -sS -H "Authorization: Bearer ${{ secrets.TODOIST_API_KEY }}" \
-            "https://api.todoist.com/sync/v9/completed/get_stats" -o "$TODOIST_RESPONSE_FILE"; then
+            "https://api.todoist.com/api/v1/tasks/completed/stats" -o "$TODOIST_RESPONSE_FILE"; then
             echo "[todoist] Failed to fetch Todoist API (curl error). Skipping README update."
             rm -f "$TODOIST_RESPONSE_FILE"
             exit 0
