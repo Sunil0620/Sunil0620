@@ -25,7 +25,7 @@
 - 📫 Reach me: **[sunilsaini5652@gmail.com](mailto:sunilsaini5652@gmail.com)**
 - ☕ Fun fact: I debug better with chai (it's basically my `sudo` command)
 - 🐛 My code works, I have no idea why. My code doesn't work, I have no idea why.
-- 🎯 2026 Goals: Ship code faster than I create bugs (still working on it..tough i like it. ;)
+- 🎯 2026 Goals: Ship code faster than I create bugs (still working on it... though I like it. ;)
 
 ---
 
