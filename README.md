@@ -1,4 +1,4 @@
-<h1 align="center">Hey, I'm SUN 🌗 :)</h1>
+<h1 align="center">Hey, I'm Sunil 👋</h1>
 <h3 align="center">Full-Stack Developer · ML Enthusiast · Open Source Contributor</h3>
 
 <div align="center">
