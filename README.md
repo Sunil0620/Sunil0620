@@ -56,34 +56,12 @@
 
 <div align="center">
 
-<a href="https://github.com/Sunil0620/Portfolio">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=Portfolio&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/Sunil0620/django-blog">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=django-blog&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/Sunil0620/crud-project">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=crud-project&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/Sunil0620/awesome-git-practice">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=awesome-git-practice&theme=github_dark&hide_border=true" />
-</a>
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img width="47%" src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-<img width="47%" src="https://github-readme-streak-stats.herokuapp.com?user=Sunil0620&theme=github-dark-blue&hide_border=true" />
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunil0620&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [Portfolio](https://github.com/Sunil0620/Portfolio) | Personal developer portfolio website | HTML · CSS · JS |
+| [django-blog](https://github.com/Sunil0620/django-blog) | Full-featured blog app with auth & CRUD | Django · Python |
+| [crud-project](https://github.com/Sunil0620/crud-project) | REST API CRUD project | Django REST · Python |
+| [awesome-git-practice](https://github.com/Sunil0620/awesome-git-practice) | Git workflow learning & practice repo | Git |
 
 </div>
 
