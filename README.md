@@ -1,35 +1,30 @@
-<h2 align="center">Hi 👋, I'm SUN 🌗 :) </h2>
-<h3 align="center">Developer • ML Enthusiast</h3>
+<h1 align="center">Hey, I'm SUN 🌗 :)</h1>
+<h3 align="center">Full-Stack Developer · ML Enthusiast · Open Source Contributor</h3>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Full‑Stack+%2B+Developer;AI%2FML+Learner;Always+Learning+%26+Building;Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Full-Stack+Developer;AI%2FML+Learner;Always+Learning+%26+Building;Open+Source+Contributor" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/👀_Profile_Views-Over_9000!-FF6B6B?style=for-the-badge&labelColor=1a1a1a" alt="profile views" />
-  <img src="https://img.shields.io/badge/👥_Followers-Mom_+_Dad_+_3_Bots-4ECDC4?style=for-the-badge&labelColor=1a1a1a" alt="followers" />
-</p>
-
-<p align="center">
-  <sub>*"It's Over 9000!" - <a href="https://knowyourmeme.com/memes/its-over-9000">Dragon Ball Z </a> for when stats are impossibly high 🔥</sub>
+  <img src="https://komarev.com/ghpvc/?username=Sunil0620&label=Profile+Views&color=2F81F7&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/Sunil0620?label=Followers&style=flat&color=2F81F7" alt="followers" />
 </p>
 
 ---
 
-## 🔎 About Me 
+## About Me
 
-- 🔭 Building full‑stack web apps with Django + React
-- 🌱 Learning: TensorFlow, Docker, PostgreSQL, and Cloud basics
-- 🤝 Open to: Freelance, internships, and open‑source collaboration
-- 💬 Ask me about: Django REST APIs, auth, and deployment
+- 🔭 Building full-stack web apps with **Django + React**
+- 🌱 Learning: **TensorFlow, Docker, PostgreSQL, and Cloud basics**
+- 🤝 Open to: Freelance, internships, and open-source collaboration
+- 💬 Ask me about: Django REST APIs, auth flows, and deployment
 - 📫 Reach me: **[sunilsaini5652@gmail.com](mailto:sunilsaini5652@gmail.com)**
-- ☕ Fun fact: I debug better with chai (it's basically my `sudo` command)
-- 🐛 My code works, I have no idea why. My code doesn't work, I have no idea why.
-- 🎯 2026 Goals: Ship code faster than I create bugs (still working on it... though I like it. ;)
+- ☕ Fun fact: I debug better with chai — it's basically my `sudo` command
+- 🎯 2026 Goals: Ship code faster than I create bugs *(still working on it...)*
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -47,7 +42,7 @@
 <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white" />
 <img src="https://img.shields.io/badge/Pandas-%23150458?style=for-the-badge&logo=pandas&logoColor=white" />
 
-<!-- Data / DevOps / Tools -->
+<!-- DevOps / Tools -->
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
@@ -55,70 +50,56 @@
 
 </div>
 
-### 🎖️  Badges (Because Why Not?)
+---
+
+## Featured Projects
 
 <div align="center">
 
-![Coffee Addict](https://img.shields.io/badge/Coffee%20Addict-☕%20Level%20999-brown?style=for-the-badge)
-![Bug Hunter](https://img.shields.io/badge/Bug%20Hunter-🐛%20Professional-red?style=for-the-badge)
-![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-Copy%20Paste%20Master-orange?style=for-the-badge)
-![Sleep](https://img.shields.io/badge/Sleep%20Schedule-What's%20That%3F-blueviolet?style=for-the-badge)
-![Code Quality](https://img.shields.io/badge/Code%20Quality-It%20Works%20On%20My%20Machine-success?style=for-the-badge)
+<a href="https://github.com/Sunil0620/Portfolio">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=Portfolio&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/Sunil0620/django-blog">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=django-blog&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/Sunil0620/crud-project">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=crud-project&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/Sunil0620/awesome-git-practice">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=awesome-git-practice&theme=github_dark&hide_border=true" />
+</a>
 
 </div>
 
 ---
 
-## 😂 Only for :) Dev Joke 
+## GitHub Stats
 
 <div align="center">
 
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" />
+<img width="47%" src="https://github-readme-stats.vercel.app/api?username=Sunil0620&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+<img width="47%" src="https://github-readme-streak-stats.herokuapp.com?user=Sunil0620&theme=github-dark-blue&hide_border=true" />
 
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<p>
-  <em>Coming Soon.... :)</em>
-</p>
-
-<!-- Cards (fill in repo names when ready) -->
-<!--
-<img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=REPO_1&theme=transparent" />
-<img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=REPO_2&theme=transparent" />
 <br/>
-<img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=REPO_3&theme=transparent" />
-<img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sunil0620&repo=REPO_4&theme=transparent" />
--->
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sunil0620&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
 
 </div>
 
 ---
 
-## 🎭 When The Code Finally Works
+## Activity Graph
 
 <div align="center">
 
-<img src="https://i.imgflip.com/4/1bij.jpg" width="300" alt="Success Kid Meme" />
-
-*Me after solving a bug that took 3 hours: "I knew what I was doing the whole time"*
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sunil0620&theme=github-compact&area=true&hide_border=true" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sunil0620&theme=github-compact&area=true" />
-
-</div>
+## Dev Metrics
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-95%20hrs%2049%20mins-blue?style=flat)
@@ -127,13 +108,13 @@
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-79.25%20thousand%20lines%20of%20code-blue?style=flat)
 
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning                448 commits         ██████░░░░░░░░░░░░░░░░░░░   22.08 % 
-🌆 Daytime                708 commits         █████████░░░░░░░░░░░░░░░░   34.89 % 
-🌃 Evening                508 commits         ██████░░░░░░░░░░░░░░░░░░░   25.04 % 
-🌙 Night                  365 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.99 % 
+🌞 Morning                448 commits         ██████░░░░░░░░░░░░░░░░░░░   22.08 %
+🌆 Daytime                708 commits         █████████░░░░░░░░░░░░░░░░   34.89 %
+🌃 Evening                508 commits         ██████░░░░░░░░░░░░░░░░░░░   25.04 %
+🌙 Night                  365 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.99 %
 ```
 
 
@@ -141,30 +122,38 @@
  Last Updated on 10/03/2026 04:08:02 UTC
 <!--END_SECTION:waka-->
 
-🚧 **my todoist stats:**
+🚧 **Todoist Stats:**
 <!-- TODO-IST:START -->
-🏆  4160 Karma Points           
-🌸  Completed 8 tasks today           
-✅  Completed 721 tasks so far           
-⏳  Longest streak is 29 days           
+🏆  4160 Karma Points
+🌸  Completed 8 tasks today
+✅  Completed 721 tasks so far
+⏳  Longest streak is 29 days
 🔥  Current streak is 6 days
 <!-- TODO-IST:END -->
 
 ---
 
-## 💭  Quote ;)
+## Dev Joke of the Day
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
-
-<sub>...because good code deserves good vibes...</sub>
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Dev Joke" />
 
 </div>
 
 ---
 
-## 🤝 Connect with Me
+## Quote
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+
+</div>
+
+---
+
+## Connect with Me
 
 <div align="center">
   <a href="mailto:sunilsaini5652@gmail.com" target="_blank" rel="noreferrer noopener">
@@ -174,7 +163,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://x.com/BluStone07" target="_blank" rel="noreferrer noopener">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+    <img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
   </a>
 </div>
 
@@ -182,8 +171,8 @@
 
 <div align="center">
 
-**If you like my work... consider ⭐️ starring the repositories!**
+If you find something useful, consider ⭐ starring the repo!
 
-— From <a href="https://github.com/Sunil0620">...Sunil0620🌟  :)</a>
+— [Sunil0620](https://github.com/Sunil0620)
 
 </div>
