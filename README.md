@@ -59,8 +59,8 @@
 | Project | Description | Stack |
 |--------|-------------|-------|
 | [Portfolio](https://github.com/Sunil0620/Portfolio) | Personal developer portfolio website | HTML · CSS · JS |
+| [orbit](https://github.com/Sunil0620/orbit) | Real-time team chat app built from scratch | Django · Redis · React · PostgreSQL |
 | [django-blog](https://github.com/Sunil0620/django-blog) | Full-featured blog app with auth & CRUD | Django · Python |
-| [crud-project](https://github.com/Sunil0620/crud-project) | REST API CRUD project | Django REST · Python |
 | [awesome-git-practice](https://github.com/Sunil0620/awesome-git-practice) | Git workflow learning & practice repo | Git |
 
 </div>
@@ -86,7 +86,7 @@
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-82.87%20thousand%20lines%20of%20code-blue?style=flat)
 
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
 🌞 Morning                524 commits         ██████░░░░░░░░░░░░░░░░░░░   23.25 % 
@@ -95,17 +95,15 @@
 🌙 Night                  401 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.79 % 
 ```
 
-
-
  Last Updated on 17/03/2026 04:15:34 UTC
 <!--END_SECTION:waka-->
 
 🚧 **Todoist Stats:**
 <!-- TODO-IST:START -->
-🏆  4376 Karma Points           
-🌸  Completed 8 tasks today           
-✅  Completed 767 tasks so far           
-⏳  Longest streak is 29 days           
+🏆  4376 Karma Points
+🌸  Completed 8 tasks today
+✅  Completed 767 tasks so far
+⏳  Longest streak is 29 days
 🔥  Current streak is 3 days
 <!-- TODO-IST:END -->
 
