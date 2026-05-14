@@ -86,8 +86,18 @@
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-109.00%20thousand%20lines%20of%20code-blue?style=flat)
 
+**I'm an Early 🐤** 
 
- Last Updated on 13/05/2026 05:49:12 UTC
+```text
+🌞 Morning                892 commits         ██████░░░░░░░░░░░░░░░░░░░   24.33 % 
+🌆 Daytime                1145 commits        ████████░░░░░░░░░░░░░░░░░   31.23 % 
+🌃 Evening                904 commits         ██████░░░░░░░░░░░░░░░░░░░   24.66 % 
+🌙 Night                  725 commits         █████░░░░░░░░░░░░░░░░░░░░   19.78 % 
+```
+
+
+
+ Last Updated on 14/05/2026 05:48:07 UTC
 <!--END_SECTION:waka-->
 
 🚧 **Todoist Stats:**
