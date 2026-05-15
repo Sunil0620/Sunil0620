@@ -80,24 +80,12 @@
 ## Dev Metrics
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-221%20hrs%2049%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-109.00%20thousand%20lines%20of%20code-blue?style=flat)
 
-**I'm an Early 🐤** 
 
-```text
-🌞 Morning                892 commits         ██████░░░░░░░░░░░░░░░░░░░   24.33 % 
-🌆 Daytime                1145 commits        ████████░░░░░░░░░░░░░░░░░   31.23 % 
-🌃 Evening                904 commits         ██████░░░░░░░░░░░░░░░░░░░   24.66 % 
-🌙 Night                  725 commits         █████░░░░░░░░░░░░░░░░░░░░   19.78 % 
-```
-
-
-
- Last Updated on 14/05/2026 05:48:07 UTC
+ Last Updated on 15/05/2026 05:54:59 UTC
 <!--END_SECTION:waka-->
 
 🚧 **Todoist Stats:**
