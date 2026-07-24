@@ -125,8 +125,6 @@ I am a systems-oriented engineer driven by a passion for automation and cognitiv
 <br/>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-294%20hrs%2053%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-191.56%20thousand%20lines%20of%20code-blue?style=flat)
@@ -134,15 +132,15 @@ I am a systems-oriented engineer driven by a passion for automation and cognitiv
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1233 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.15 % 
-🌆 Daytime                4053 commits        █████████████░░░░░░░░░░░░   53.10 % 
-🌃 Evening                1222 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.01 % 
-🌙 Night                  1125 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.74 % 
+🌞 Morning                1239 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.19 % 
+🌆 Daytime                4057 commits        █████████████░░░░░░░░░░░░   53.00 % 
+🌃 Evening                1228 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.04 % 
+🌙 Night                  1131 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.77 % 
 ```
 
 
 
- Last Updated on 23/07/2026 05:25:30 UTC
+ Last Updated on 24/07/2026 05:20:50 UTC
 <!--END_SECTION:waka-->
 </details>
 
