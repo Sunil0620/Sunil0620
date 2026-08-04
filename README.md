@@ -74,32 +74,6 @@ I am a systems-oriented engineer driven by a passion for automation and cognitiv
 
 ---
 
-## 🗺️ AI Engineering Roadmap
-
-```text
-  🌐 LEVEL 01: Core Web & Systems
-  ├── Django & React Architecture [Mastered]
-  ├── Redis Pub/Sub & WebSockets [Mastered]
-  └── PostgreSQL Optimization & Docker [Mastered]
-        │
-        ▼
-  📊 LEVEL 02: ML & Statistical Foundations
-  ├── Statistical Models & Pandas [Mastering]
-  ├── Neural Networks & TensorFlow [Mastering]
-  └── Numerical Optimization & NumPy [Mastering]
-        │
-        ▼
-  🤖 LEVEL 03: Cognitive Orchestration
-  ├── RAG (Retrieval-Augmented Generation) [Up Next]
-  ├── LLM Fine-tuning & Embeddings [Up Next]
-  └── Frameworks: LangChain & LlamaIndex [Up Next]
-        │
-        ▼
-  🦾 LEVEL 04: Autonomous AI Systems
-  └── High-Performance Agentic Pipelines
-```
-
----
 
 ## 📈 Dev Metrics & Live Activity
 
