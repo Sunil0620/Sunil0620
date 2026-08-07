@@ -99,32 +99,12 @@ I am a systems-oriented engineer driven by a passion for automation and cognitiv
 <br/>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-287%20hrs%2026%20mins-blue?style=flat)
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-144%20hrs%2044%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-191.56%20thousand%20lines%20of%20code-blue?style=flat)
 
-**I'm an Early 🐤** 
 
-```text
-🌞 Morning                1317 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.59 % 
-🌆 Daytime                4113 commits        █████████████░░░░░░░░░░░░   51.81 % 
-🌃 Evening                1300 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.37 % 
-🌙 Night                  1209 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.23 % 
-```
-
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
-
- Last Updated on 06/08/2026 05:04:45 UTC
+ Last Updated on 07/08/2026 04:28:51 UTC
 <!--END_SECTION:waka-->
 </details>
 
