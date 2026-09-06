@@ -2,8 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,65:1E293B,100:38BDF8&height=180&section=header&text=Sunil%20Saini&fontFamily=SF%20Mono,Fira%20Code,Consolas,monospace&fontSize=40&fontColor=FFFFFF&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%20%26amp%3B%20Systems&descSize=16&descAlignY=58&descAlign=50&animation=fadeIn" alt="Sunil Saini - Software Engineer | AI &amp; Systems" width="100%" />
 </div>
 
----
-
 ## `01 //` THE PHILOSOPHY <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" alt="Smiling Face with Sunglasses" width="28" height="28" valign="middle" />
 
 > [!NOTE]
