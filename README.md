@@ -163,5 +163,11 @@ No AI Coding Activity Tracked This Week
 <br/>
 
 <div align="center">
+  <img src="./assets/red-panda.jpg" alt="Cute Red Panda" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
   <code>Designed &amp; maintained by Sunil Saini • Engineered for high performance</code>
 </div>
