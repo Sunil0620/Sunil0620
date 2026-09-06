@@ -163,5 +163,7 @@ No AI Coding Activity Tracked This Week
 <br/>
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Panda.png" alt="Animated Panda Mascot" width="90" height="90" />
+  <br/><br/>
   <code>Designed &amp; maintained by Sunil Saini • Engineered for high performance</code>
 </div>
