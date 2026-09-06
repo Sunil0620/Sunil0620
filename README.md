@@ -1,15 +1,10 @@
 <div align="center">
-  <picture>
-    <source type="image/png" srcset="./assets/header.png" />
-    <img src="./assets/header.gif" alt="Sunil Saini - Software Engineer | AI &amp; Systems" width="100%" />
-  </picture>
-
-  <p align="center">
-    <code>STATUS: ALL SYSTEMS OPERATIONAL</code>
-  </p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,65:1E293B,100:38BDF8&height=180&section=header&text=Sunil%20Saini&fontFamily=SF%20Mono,Fira%20Code,Consolas,monospace&fontSize=40&fontColor=FFFFFF&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%20%26amp%3B%20Systems&descSize=16&descAlignY=58&descAlign=50&animation=fadeIn" alt="Sunil Saini - Software Engineer | AI &amp; Systems" width="100%" />
 </div>
 
-## `01 //` THE PHILOSOPHY
+---
+
+## `01 //` THE PHILOSOPHY <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" alt="Smiling Face with Sunglasses" width="28" height="28" valign="middle" />
 
 > [!NOTE]
 > `I don't build wrappers. I build functional, high-performance systems that solve real-world problems.`
@@ -18,7 +13,7 @@
 
 ---
 
-## `02 //` WHY I BUILD & WHAT EXCITES ME
+## `02 //` WHY I BUILD & WHAT EXCITES ME <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="28" height="28" valign="middle" />
 
 - `[PROBLEM]` Eliminating latency and brittleness between intelligence and action. Most AI integrations remain sluggish wrappers; I engineer stateful, low-latency pipelines that reason dynamically and scale reliably.
 - `[DRIVE]` Code is only valuable when it eliminates a real architectural bottleneck. I build to transform complex distributed workflows into responsive, intuitive experiences.
@@ -26,7 +21,7 @@
 
 ---
 
-## `03 //` ARCHITECTURAL FOCUS
+## `03 //` ARCHITECTURAL FOCUS <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="28" height="28" valign="middle" />
 
 ```yaml
 cognitive_systems:
@@ -42,7 +37,7 @@ infrastructure_reliability:
 
 ---
 
-## `04 //` TECH STACK
+## `04 //` TECH STACK <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Technologist%20Light%20Skin%20Tone.png" alt="Technologist" width="28" height="28" valign="middle" />
 
 <div align="center">
   <p>
@@ -71,7 +66,7 @@ infrastructure_reliability:
 
 ---
 
-## `05 //` DEV METRICS & LIVE ACTIVITY
+## `05 //` DEV METRICS & LIVE ACTIVITY <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="28" height="28" valign="middle" />
 
 <div align="center">
   <picture>
@@ -143,7 +138,7 @@ No AI Coding Activity Tracked This Week
 
 ---
 
-## `06 //` LEARN · BUILD · SHIP IN PUBLIC
+## `06 //` LEARN · BUILD · SHIP IN PUBLIC <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Writing%20Hand.png" alt="Writing Hand" width="28" height="28" valign="middle" />
 
 - `[LEARN]` Documenting algorithm optimizations, backend patterns, and machine learning architectures as I digest them.
 - `[BUILD]` Documenting architecture decisions, performance challenges, and engineering trade-offs made during my builds.
@@ -155,7 +150,7 @@ No AI Coding Activity Tracked This Week
 
 ---
 
-## `07 //` CONNECT WITH ME
+## `07 //` CONNECT WITH ME <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="28" height="28" valign="middle" />
 
 <div align="center">
   <a href="mailto:sunilsaini5652@gmail.com" target="_blank" rel="noreferrer noopener">

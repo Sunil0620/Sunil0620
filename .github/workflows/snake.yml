@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Snake SVG
 
 on:
   schedule:
@@ -23,6 +23,11 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Remove Horizontal Progress Bar
+        run: |
+          sed -i -E 's/<rect class="u[^"]*"[^>]*>//g' dist/*.svg
+          sed -i -E 's/\.u\{[^}]*\}/.u{display:none}/g' dist/*.svg
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
