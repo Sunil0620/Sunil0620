@@ -1,5 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,65:1E293B,100:38BDF8&height=180&section=header&text=Sunil%20Saini&fontFamily=SF%20Mono,Fira%20Code,Consolas,monospace&fontSize=40&fontColor=FFFFFF&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%20%26amp%3B%20Systems&descSize=16&descAlignY=58&descAlign=50" alt="Sunil Saini - Software Engineer | AI &amp; Systems" width="100%" />
+  <picture>
+    <source type="image/png" srcset="./assets/header.png" />
+    <img src="./assets/header.gif" alt="Sunil Saini - Software Engineer | AI &amp; Systems" width="100%" />
+  </picture>
+
+  <p align="center">
+    <code>STATUS: ALL SYSTEMS OPERATIONAL</code>
+  </p>
 </div>
 
 ## `01 //` THE PHILOSOPHY
@@ -40,16 +47,25 @@ infrastructure_reliability:
 <div align="center">
   <p>
     <code>LANGUAGES &amp; CORE FRAMEWORKS</code><br/><br/>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=ts,js,python,nextjs,react,nestjs,nodejs,django&theme=dark" alt="Languages and Frameworks" />
-    </a>
+    <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" title="JavaScript" /></a>
+    <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" title="Python" /></a>
+    <a href="https://nextjs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" title="Next.js" /></a>
+    <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" title="React" /></a>
+    <a href="https://nestjs.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nestjs&theme=dark" width="48" height="48" alt="NestJS" title="NestJS" /></a>
+    <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" title="Node.js" /></a>
+    <a href="https://www.djangoproject.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=django&theme=dark" width="48" height="48" alt="Django" title="Django" /></a>
   </p>
   <br/>
   <p>
     <code>DATA, TESTING &amp; INFRASTRUCTURE</code><br/><br/>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,postman,docker,githubactions,git&theme=dark" alt="Data, Testing and Infrastructure" />
-    </a>
+    <a href="https://www.mongodb.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" title="MongoDB" /></a>
+    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" /></a>
+    <a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=redis&theme=dark" width="48" height="48" alt="Redis" title="Redis" /></a>
+    <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postman&theme=dark" width="48" height="48" alt="Postman" title="Postman" /></a>
+    <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" title="Docker" /></a>
+    <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="48" height="48" alt="GitHub Actions" title="GitHub Actions" /></a>
+    <a href="https://git-scm.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" title="Git" /></a>
   </p>
 </div>
 
@@ -58,6 +74,14 @@ infrastructure_reliability:
 ## `05 //` DEV METRICS & LIVE ACTIVITY
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sunil0620/Sunil0620/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sunil0620/Sunil0620/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Sunil0620/Sunil0620/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+  
+  <br/><br/>
+
   <table border="0">
     <tr>
       <td width="50%" valign="top">
