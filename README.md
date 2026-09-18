@@ -92,9 +92,9 @@ infrastructure_reliability:
 <br/>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-296%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-296%20hrs%2058%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-154%20hrs%2019%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-154%20hrs%2024%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue?style=flat)
 
@@ -103,39 +103,39 @@ infrastructure_reliability:
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1525 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.41 % 
-🌆 Daytime                4335 commits        ████████████░░░░░░░░░░░░░   49.49 % 
-🌃 Evening                1490 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.01 % 
-🌙 Night                  1409 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.09 % 
+🌞 Morning                1527 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.41 % 
+🌆 Daytime                4341 commits        ████████████░░░░░░░░░░░░░   49.48 % 
+🌃 Evening                1492 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.01 % 
+🌙 Night                  1413 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.11 % 
 ```
 
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 8 hrs 11 mins (96.38%)
+⏱ AI Coding Time: 3 hrs 48 mins (92.52%)
 
-✍️ 676 lines written by AI, 5,333 lines written by hand (11.25% AI-written)
+✍️ 360 lines written by AI, 5,333 lines written by hand (6.32% AI-written)
 
-🔤 2,015,560 Input Tokens, 116,218 Output Tokens
+🔤 1,278,798 Input Tokens, 44,484 Output Tokens
 
-💵 $9.37 Estimated AI Cost This Week
+💵 $5.37 Estimated AI Cost This Week
 
-🧠 19 AI Sessions, 157 AI Prompts
+🧠 7 AI Sessions, 70 AI Prompts
 
-Gemini                   426 lines           █████████████░░░░░░░░░░░░   50.84 % 
-GPT                      411 lines           ████████████░░░░░░░░░░░░░   49.05 % 
-Github-Copilot           1 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
+Gemini                   253 lines           █████████████░░░░░░░░░░░░   50.80 % 
+GPT                      245 lines           ████████████░░░░░░░░░░░░░   49.20 % 
+Github-Copilot           0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 11.25% of written lines came from AI
-📚 Verbose Prompter — average 6,091 characters per prompt
-🔁 Iterative Prompter — average 8 prompts per session
-🔍 Hands-On Reviewer — 86.42% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 6.32% of written lines came from AI
+📚 Verbose Prompter — average 7,675 characters per prompt
+🔁 Iterative Prompter — average 10 prompts per session
+🔍 Hands-On Reviewer — 91.46% of changed lines were hand-edited
 ```
 
 
- Last Updated on 17/09/2026 07:05:17 UTC
+ Last Updated on 18/09/2026 07:02:25 UTC
 <!--END_SECTION:waka-->
 </details>
 
