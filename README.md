@@ -103,39 +103,39 @@ infrastructure_reliability:
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1597 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.32 % 
-🌆 Daytime                4495 commits        ████████████░░░░░░░░░░░░░   48.75 % 
-🌃 Evening                1590 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
-🌙 Night                  1539 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.69 % 
+🌞 Morning                1599 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.32 % 
+🌆 Daytime                4499 commits        ████████████░░░░░░░░░░░░░   48.74 % 
+🌃 Evening                1592 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.25 % 
+🌙 Night                  1541 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.69 % 
 ```
 
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 9 hrs 4 mins (97.32%)
+⏱ AI Coding Time: 6 hrs 1 min (96.02%)
 
-✍️ 548 lines written by AI, 24 lines written by hand (95.8% AI-written)
+✍️ 414 lines written by AI, 24 lines written by hand (94.52% AI-written)
 
-🔤 8,793,667 Input Tokens, 413,299 Output Tokens
+🔤 6,217,816 Input Tokens, 303,310 Output Tokens
 
-💵 $22.41 Estimated AI Cost This Week
+💵 $15.50 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 104 AI Prompts
+🧠 8 AI Sessions, 57 AI Prompts
 
-Gemini                   580 lines           ██████████████████████░░░   89.23 % 
-GPT                      70 lines            ███░░░░░░░░░░░░░░░░░░░░░░   10.77 % 
+Gemini                   392 lines           █████████████████████░░░░   84.85 % 
+GPT                      70 lines            ████░░░░░░░░░░░░░░░░░░░░░   15.15 % 
 Opus                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 95.8% of written lines came from AI
-📝 Concise Prompter — average 290 characters per prompt
-🔁 Iterative Prompter — average 13 prompts per session
-🚀 High AI Trust — 3.7% of changed lines were hand-edited
+🤖 AI-Driven — 94.52% of written lines came from AI
+📝 Concise Prompter — average 314 characters per prompt
+🔁 Iterative Prompter — average 7 prompts per session
+🚀 High AI Trust — 5.13% of changed lines were hand-edited
 ```
 
 
- Last Updated on 26/10/2026 07:23:02 UTC
+ Last Updated on 27/10/2026 07:13:02 UTC
 <!--END_SECTION:waka-->
 </details>
 
